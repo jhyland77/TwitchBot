@@ -1,4 +1,5 @@
 const tmi = require('tmi.js');
+const fs = require('fs');
 
 // Define configuration options
 const opts = {
@@ -28,20 +29,28 @@ function onMessageHandler (target, context, msg, self) {
   // Remove whitespace from chat message
   const commandName = msg.trim();
 
-  // If the command is known, let's execute it
-  if (commandName === '!dice') {
-    const num = rollDice();
-    client.say(target, `You rolled a ${num}`);
-    console.log(`* Executed ${commandName} command`);
-  } else {
-    console.log(`* Unknown command ${commandName}`);
-  }
+  // Call basicCommand
+  basicCommand(target, commandName)
+
 }
 
-// Function called when the "dice" command is issued
-function rollDice () {
-  const sides = 6;
-  return Math.floor(Math.random() * sides) + 1;
+// Basic Commands from commands_list.json
+function basicCommand(target, commandName) {
+
+  // Get commands from json list with commands
+  fs.readFile('./commands_list.json', 'utf8', (err, jsonString) => {
+    if (err) {
+      console.log(`* commands_list.json file read failed: `, err);
+      return;
+    }
+    try {
+      const basicCommands = JSON.parse(jsonString)
+      client.say(target, basicCommands[commandName].value)
+      console.log(`* Executed ${commandName} command`)
+    } catch(err) {
+      console.log(`* Unknown Command ${commandName}`)
+    }
+  });
 }
 
 // Called every time the bot connects to Twitch chat
