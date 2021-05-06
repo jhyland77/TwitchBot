@@ -1,0 +1,170 @@
+{
+    "!pobot": {
+        "name": "!pobot",
+        "value": "I am PoBotYEET, your neighborhood friendly bot and shameless shill for PoJah! peepoJahOnAGoose peepoHawOnAGoose peepoJahOnAGoose"
+    },
+    "!addquote": {
+        "name": "!addquote",
+        "value": "$(urlfetch https://twitch.center/customapi/addquote?token=e0a096b9b8801b86&data=$(querystring))"
+    },
+    "!agenda": {
+        "name": "!agenda",
+        "value": "Animal Crossing, Valorant, Pokemon: Soul Silver Nuzlocke, Mario64, Blazing Beaks (Pog), Old School Runescape, Tetris, Pogostuck, Marbles, RotMG, OTHERS?"
+    },
+    "!beer": {
+        "name": "!beer",
+        "value": "Time for some beer lads!"
+    },
+    "!bits": {
+        "name": "!bits",
+        "value": "BITTIES FROM YOUR BIDDIE <3"
+    },
+    "!breederlocke": {
+        "name": "!breederlocke",
+        "value": "Rules: 1. Once the daycare is reached, all of your current Pokemon become Breeder Pokemon, and you must start breeding Pokemon. - Once your first egg hatches and reaches level 5, you can no longer user Breeder Pokemon. 2. All Pokemon caught after the daycare is reached are Breeder Pokemon"
+    },
+    "!delquote": {
+        "name": "!delquote",
+        "value": "$(urlfetch https://twitch.center/customapi/delquote?token=e0a096b9b8801b86&data=$(querystring))"
+    },
+    "!discord": {
+        "name": "!discord",
+        "value": "Join the Water Tribe Discord here! https://discord.gg/zeKMYJM"
+    },
+    "!drinkwhen": {
+        "name": "!drinkwhen",
+        "value": "Anytime a new Temtem is captured, Anytime both players lose a Temtem in a battle, Anytime a quest is completed, Anytime the game crashes (x3)"
+    },
+    "!energy": {
+        "name": "!energy",
+        "value": "BLANKIES BLANKIES BLANKIES BLANKIES BLANKIES ENERGY BLANKIES BLANKIES BLANKIES BLANKIES BLANKIES"
+    },
+    "!fallguys": {
+        "name": "!fallguys",
+        "value": "Wins: a million probably"
+    },
+    "!fc": {
+        "name": "!fc",
+        "value": "SW-8540-2182-7629"
+    },
+    "!flamezag": {
+        "name": "!flamezag",
+        "value": "Like the pixel art you see on screen? Those were made by FlamezagKing! Check out his Twitter for more, and to commission him for some of your own art! https://twitter.com/FlamezagKing"
+    },
+    "!followage": {
+        "name": "!followage",
+        "value": "$(urlfetch https://beta.decapi.me/twitch/followage/PoJah/$(user))"
+    },
+    "!fumanchu": {
+        "name": "!fumanchu",
+        "value": "See this glorious facial hair? Well, for some reason @mcrowey does not like it. However. She said that I could keep it IF during this stream, I get 10 DIFFERENT PEOPLE to sub / gift a sub. HELP OUT THE CAUSE :)"
+    },
+    "!fumanchupatrons": {
+        "name": "!fumanchupatrons",
+        "value": "@Miilliix , @adeptztv x 3 , @Impupdog , @jwhelan032 , @TomekB0mb , @JSoccorso"
+    },
+    "!god": {
+        "name": "!god",
+        "value": "snomDance snomDance snomDance snomDance snomDance snomDance snomDance snomDance snomDance snomDance snomDance snomDance snomDance snomDance snomDance snomDance snomDance snomDance snomDance snomDance snomDance snomDance snomDance snomDance snomDance snomDance snomDance snomDance snomDance snomDance"
+    },
+    "!graveyard": {
+        "name": "!graveyard",
+        "value": "These brave souls are lost but not forgotten: No-name (Onix), Laxus (Luxray), Gandalf (Shiftry), Shuckie (Golbat), DrtyBubble (Spiritomb), BAEleef (Meganium). RIP BibleThump"
+    },
+    "!hype": {
+        "name": "!hype",
+        "value": "pojahHype pojahHype pojahHype pojahHype pojahHype"
+    },
+    "!jah": {
+        "name": "!jah",
+        "value": "peepoJahOnAGoose peepoJahOnAGoose peepoJahOnAGoose peepoJahOnAGoose peepoJahOnAGoose peepoJahOnAGoose peepoJahOnAGoose peepoJahOnAGoose peepoJahOnAGoose WE RIDE peepoJahOnAGoose peepoJahOnAGoose peepoJahOnAGoose peepoJahOnAGoose peepoJahOnAGoose peepoJahOnAGoose peepoJahOnAGoose peepoJahOnAGoose peepoJahOnAGoose peepoJahOnAGoose peepoJahOnAGoose"
+    },
+    "!maggie": {
+        "name": "!maggie",
+        "value": "https://multistre.am/pojah/mcrowey/layout4/"
+    },
+    "!march": {
+        "name": "!march",
+        "value": "peepoShortOnAGoose peepoShortOnAYion peepoShortOnAGoose peepoShortOnAYion peepoShortOnAGoose peepoShortOnAYion peepoShortOnAGoose peepoShortOnAYion"
+    },
+    "!mcrowey": {
+        "name": "!mcrowey",
+        "value": "Go check out the #BetterStreamer, mcrowey at twitch.tv/mcrowey and drop a follow!!!"
+    },
+    "!multi": {
+        "name": "!multi",
+        "value": "https://multistre.am/pojah/mcrowey/layout4/"
+    },
+    "!neff": {
+        "name": "!neff",
+        "value": "that beanie is fire GlitchCat"
+    },
+    "!nuzlocke": {
+        "name": "!nuzlocke",
+        "value": "1. If a pokemon faints in battle, it must be stored in the pc. 2. Only the first pokemon encountered on each route can be captured. If this pokemon escapes or faints, no more pokemon can be caught on that route (exceptions for duplicate pokemon lines). 3. If all party pokemon faint, the run is over and I have to start a new game. 4. The nuzlocke ends when Red is defeated (or all party pokemon faint)."
+    },
+    "!qt": {
+        "name": "!qt",
+        "value": "3.14"
+    },
+    "!quote": {
+        "name": "!quote",
+        "value": "$(urlfetch https://twitch.center/customapi/quote?token=fcca0d5c&data=$(querystring))"
+    },
+    "!raid": {
+        "name": "!raid",
+        "value": "pojahTribe pojahHype #PoJahRaid!!! pojahTribe pojahHype pojahTribe pojahHype pojahTribe pojahHype pojahTribe pojahHype"
+    },
+    "!rules": {
+        "name": "!rules",
+        "value": "Any Pokémon that faints is considered 'dead.' You can only catch the first Pokémon encountered in each area. You must also nickname all of your Pokémon. In a new area, the first encounters for both players will be 'linked' together until death. If one player fails to capture their first encounter in an area, the second player must forfeit their encounter in their corresponding area. Across both players parties, primary typings may not be repeated. Shout out to @DrJudas <3"
+    },
+    "!sauce": {
+        "name": "!sauce",
+        "value": "1. Sriracha 2. Mother's Mountain Habenero 3. Iguana Enfuegeo, 4. Sweaty Beaver 5. Trader Joe's Habanero Sauce"
+    },
+    "!schedule": {
+        "name": "!schedule",
+        "value": "Mondays and Thursdays, around 8pm EST!"
+    },
+    "!sessytank": {
+        "name": "!sessytank",
+        "value": "MorphinTime how many sessy tanks has @pojah worn???? $(count times) MorphinTime"
+    },
+    "!sheesh": {
+        "name": "!sheesh",
+        "value": "sheeeeeeeeeeeeeeeesh $(count times) times"
+    },
+    "!so": {
+        "name": "!so",
+        "value": "Go check out $(touser) at twitch.tv/$(touser) and drop a follow!"
+    },
+    "!soullink": {
+        "name": "!soullink",
+        "value": "it's a lot HahaThisisfine"
+    },
+    "!squirtlesquad": {
+        "name": "!squirtlesquad",
+        "value": "SquirtleJam SquirtleJam SquirtleJam SquirtleJam SquirtleJam SquirtleJam SquirtleJam SquirtleJam SquirtleJam SquirtleJam SquirtleJam SquirtleJam SquirtleJam SquirtleJam SquirtleJam SquirtleJam SquirtleJam SquirtleJam SquirtleJam SquirtleJam SquirtleJam SquirtleJam SquirtleJam SquirtleJam SquirtleJam SquirtleJam SquirtleJam SquirtleJam SquirtleJam"
+    },
+    "!steam": {
+        "name": "!steam",
+        "value": "383571096"
+    },
+    "!streamraiders": {
+        "name": "!streamraiders",
+        "value": "Join here! https://www.streamraiders.com/t/pojah"
+    },
+    "!style": {
+        "name": "!style",
+        "value": "I'm more of a hipster basic bitch ChefFrank"
+    },
+    "!subgoal": {
+        "name": "!subgoal",
+        "value": "Current Sub Goal: TBD --- Sub Goals Reached (Time tbd): Hot Ones ON STREAM, Mario64 PB"
+    },
+    "!uptime": {
+        "name": "!uptime",
+        "value": "Po_Jah has been live for $(twitch $(channel) '{{uptimeLength}}')!"
+    }
+}
